@@ -58,7 +58,7 @@
 
 ```bash
 cd wp-content/plugins
-git clone https://github.com/hwrz444/wordpress-.git ol_scrapes
+git clone https://github.com/hwrz444/wordpress-collect-pan.git ol_scrapes
 ```
 
 ---
