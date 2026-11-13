@@ -1,0 +1,47 @@
+.olsc-pan {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    margin: 4px 6px 4px 0;
+    vertical-align: middle;
+}
+
+.olsc-pan-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 7px 16px;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #1e6fdf, #3498db);
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: transform .2s ease, box-shadow .2s ease, opacity .2s ease;
+}
+
+.olsc-pan-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 111, 223, .35);
+}
+
+.olsc-pan-btn:disabled {
+    opacity: .6;
+    cursor: not-allowed;
+    transform: none;
+    box-shadow: none;
+}
+
+.olsc-pan-msg {
+    font-size: 13px;
+    color: #666;
+}
+
+.olsc-pan-msg.ok {
+    color: #1a8c4a;
+}
+
+.olsc-pan-msg.err {
+    color: #d63638;
+}

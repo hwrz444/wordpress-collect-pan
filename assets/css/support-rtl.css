@@ -1,0 +1,27 @@
+#scrapes-support .w-box.support-page.videobox .w-button a i,
+.support-page .w-box-content ul li i {
+    margin-left: 7px;
+    margin-right: 0;
+}
+.change-log {
+	word-wrap:break-word;
+	margin-bottom: 30px;
+}
+.w-box.change-log .w-box-head {
+	color:#01c6d9
+}
+.w-box-content pre {
+    text-align: right;
+    font-family: BYekan;
+	background: #f5f5f5;
+	font-size: 13px;
+	padding: 20px 25px;
+	height: 480px;
+	overflow-y: scroll;
+}
+@media (min-width: 768px) {
+	.s-col-sm-1,
+	.s-col-sm-2 {
+		float: right;
+	}	
+}

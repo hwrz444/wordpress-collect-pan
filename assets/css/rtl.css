@@ -1,0 +1,138 @@
+@font-face {
+font-family: "BYekan";
+src: url("../fonts/BYekan.eot?#") format("eot") , url("../fonts/BYekan.woff") format("woff") , url("../fonts/BYekan.ttf") format("truetype");
+}
+.bootstrap .container-fluid .form-horizontal .jumbotron .cover .title h1,
+.bootstrap .container-fluid .form-horizontal .jumbotron .cover .search input[type="text"],
+.bootstrap .container-fluid .form-horizontal .jumbotron .items > [class*='col-'] h4,
+.bootstrap .container-fluid .form-horizontal .panel-group .panel .panel-heading h4,
+.bootstrap .container-fluid .form-horizontal .jumbotron .cover .title h1 + p {
+	font-family: BYekan;
+}
+.bootstrap .container-fluid .form-horizontal .jumbotron > .form-group > [class*="col-"]:nth-child(1),
+.bootstrap .container-fluid .form-horizontal .panel-group .panel .panel-collapse .panel-body > .form-group > [class*="col-"]:nth-child(1) {
+	font-size: 15px;
+}
+.bootstrap .container-fluid .form-horizontal .panel-group .panel .panel-collapse .panel-body > .form-group > [class*="col-"]:nth-child(2) .input-group .input-group-addon {
+	text-align: right;
+}
+.bootstrap label {
+	font-weight: 200;
+}
+.bootstrap .container-fluid .checkbox label,
+.bootstrap .container-fluid .radio label {
+    padding-right: 25px !important;
+	padding-left: 0;
+}
+.bootstrap .container-fluid .checkbox label input,
+.bootstrap .container-fluid .radio label input {
+    margin-right: -25px !important;
+    margin-left: 0;
+}
+.bootstrap .container-fluid .header {
+	float: right !important;
+}
+.bootstrap .container-fluid .sidebar {
+	float: left;
+}
+.bootstrap .container-fluid .sidebar .fixed {
+	padding-right: 30px;
+	padding-left: 0;
+}
+.bootstrap .input-group-addon:first-child {
+	border-left: 0;
+	border-right: 1px solid #ccc;
+}
+.bootstrap .container-fluid .form-horizontal .panel-group .panel .panel-heading h4 a > .icon,
+.bootstrap .container-fluid .form-horizontal .panel-group .panel .panel-heading h4 .status > .icon {
+	margin-left: 10px;
+}
+.bootstrap .container-fluid .select::after {
+	left: 15px;
+	right: auto;
+}
+.bootstrap .input-group-addon:last-child {
+	border-right: 0;
+	border-left: 1px solid #ccc;
+}
+.ion-arrow-right-c::befor {
+	content: "\f177";
+}
+.bootstrap .col-xs-1,
+.bootstrap .col-xs-10,
+.bootstrap .col-xs-11,
+.bootstrap .col-xs-12,
+.bootstrap .col-xs-2,
+.bootstrap .col-xs-3,
+.bootstrap .col-xs-4,
+.bootstrap .col-xs-5,
+.bootstrap .col-xs-6,
+.bootstrap .col-xs-7,
+.bootstrap .col-xs-8,
+.bootstrap .col-xs-9 {
+	float: right !important;
+}
+.bootstrap .col-sm-1,
+.bootstrap .col-sm-10,
+.bootstrap .col-sm-11,
+.bootstrap .col-sm-12,
+.bootstrap .col-sm-2,
+.bootstrap .col-sm-3,
+.bootstrap .col-sm-4,
+.bootstrap .col-sm-5,
+.bootstrap .col-sm-6,
+.bootstrap .col-sm-7,
+.bootstrap .col-sm-8,
+.bootstrap .col-sm-9 {
+    float: right !important;
+	font-family: BYekan;
+}
+.bootstrap .container-fluid .panel-group .panel .panel-collapse .panel-body > .form-group > [class*="col-"]:nth-child(1), .bootstrap .container-fluid .jumbotron > .form-group > [class*="col-"]:nth-child(1) {
+	text-align: right !important;
+}
+.bootstrap .container-fluid .jumbotron > .form-group > [class*="col-"]:nth-child(2), .bootstrap .container-fluid .panel-group .panel .panel-collapse .panel-body > .form-group > [class*="col-"]:nth-child(2) {
+    border-right: 4px solid #e6e6e6;
+	border-left: none !important;
+}
+.bootstrap .container-fluid .form-horizontal .jumbotron > .form-group:hover > [class*="col-"]:nth-child(2) {
+	border-color: #2196F3;
+}
+.bootstrap .input-group .form-control {
+	float: right;
+}
+.wp-core-ui select {
+	max-width: 37rem;
+}
+.scrapes-error {
+	margin:10px 0;
+	padding:15px;
+	border-radius:3px 3px 3px 3px;
+	color:#d8000c;
+	background-color:#ffbaba;
+}
+.scrapes-notice {
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 3px 3px 3px 3px;
+    color: #131313;
+    background-color: #bfe6fd;
+}
+.fixed ul li::after, .fixed ul li::before {
+	margin-right: calc(50% - 1px);
+    margin-left: 0 !important;
+}
+.scrapes-logo img {
+	float: left;
+}
+.next, .prev, .trial {
+    font-family: 'BYekan' !important;
+}
+.trial a {
+    font-size: 13px;
+}
+@media only screen and (max-width: 1199px) {
+	.sidebar .fixed {
+		left: 15px;
+		right: auto !important;
+	}
+}

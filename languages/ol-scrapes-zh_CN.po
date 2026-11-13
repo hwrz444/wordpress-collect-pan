@@ -1,0 +1,2276 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Scrapes\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-04-11 13:50+0800\n"
+"PO-Revision-Date: 2024-11-09 19:53+0800\n"
+"Last-Translator: 搬主题www.banzhuti.com <admin@banzhuti.com>\n"
+"Language-Team: 简体中文\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: ol_scrapes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Loco-Version: 2.6.4; wp-6.2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-ol-scrapes.php:43
+msgid "Your WordPress version is below 3.5. Please update."
+msgstr "您的 WordPress 版本低于 3.5。请更新。"
+
+#: classes/class-ol-scrapes.php:47
+msgid "PHP version is below 5.2.4. Please update."
+msgstr "PHP 版本低于 5.2.4。请更新。"
+
+#: classes/class-ol-scrapes.php:52
+#, php-format
+msgid ""
+"PHP extension %s is not loaded. Please contact your server administrator or "
+"visit http://php.net/manual/en/%s.installation.php for installation."
+msgstr ""
+"未加载PHP扩展%s。请联系您的服务器管理员或访问 http://php.net/manual/en/%s."
+"installation.php 进行安装。"
+
+#: classes/class-ol-scrapes.php:59
+#, php-format
+msgid ""
+"%s folder is not writable. Please update permissions for this folder to "
+"chmod 755."
+msgstr "%s 文件夹不可写。请将此文件夹的权限更新为 chmod 755。"
+
+#: classes/class-ol-scrapes.php:63
+#, php-format
+msgid ""
+"%s folder is not writable therefore logs.txt file could not be created. "
+"Please update permissions for this folder to chmod 755."
+msgstr ""
+"%s 文件夹不可写，因此无法创建 logs.txt 文件。请将此文件夹的权限更新为 chmod "
+"755。"
+
+#: classes/class-ol-scrapes.php:86 classes/class-ol-scrapes.php:132
+#: views/scrape-meta-box.php:1419 views/scrape-meta-box.php:1422
+#: views/scrape-meta-box.php:2086
+msgid "Featured image"
+msgstr "特色图片"
+
+#: classes/class-ol-scrapes.php:87 classes/class-ol-scrapes.php:3750
+#: views/scrape-meta-box.php:578 views/scrape-meta-box.php:581
+#: views/scrape-meta-box.php:683 views/scrape-meta-box.php:799
+#: views/scrape-meta-box.php:1535
+msgid "Name"
+msgstr "名称"
+
+#: classes/class-ol-scrapes.php:88 views/scrape-meta-box.php:684
+#: views/scrape-meta-box.php:800 views/scrape-meta-box.php:1536
+msgid "e.g. name"
+msgstr "例如名称"
+
+#: classes/class-ol-scrapes.php:89 views/scrape-meta-box.php:691
+#: views/scrape-meta-box.php:2099
+msgid "e.g. value"
+msgstr "例如价值"
+
+#: classes/class-ol-scrapes.php:90 views/scrape-meta-box.php:807
+#: views/scrape-meta-box.php:813
+msgid "e.g. 1"
+msgstr "例如 1"
+
+#: classes/class-ol-scrapes.php:91 views/scrape-meta-box.php:690
+#: views/scrape-meta-box.php:747 views/scrape-meta-box.php:781
+#: views/scrape-meta-box.php:806 views/scrape-meta-box.php:949
+#: views/scrape-meta-box.php:1069 views/scrape-meta-box.php:1156
+#: views/scrape-meta-box.php:1262 views/scrape-meta-box.php:1347
+#: views/scrape-meta-box.php:1365 views/scrape-meta-box.php:1435
+#: views/scrape-meta-box.php:1500 views/scrape-meta-box.php:1542
+#: views/scrape-meta-box.php:1836 views/scrape-meta-box.php:1884
+#: views/scrape-meta-box.php:2098
+msgid "Value"
+msgstr "值"
+
+#: classes/class-ol-scrapes.php:92 views/scrape-meta-box.php:812
+msgid "Increment"
+msgstr "增量"
+
+#: classes/class-ol-scrapes.php:93 views/scrape-meta-box.php:748
+#: views/scrape-meta-box.php:782 views/scrape-meta-box.php:950
+#: views/scrape-meta-box.php:1070 views/scrape-meta-box.php:1157
+#: views/scrape-meta-box.php:1263 views/scrape-meta-box.php:1348
+#: views/scrape-meta-box.php:1436 views/scrape-meta-box.php:1543
+#: views/scrape-meta-box.php:1837
+msgid "e.g. //div[@id='octolooks']"
+msgstr "例如 //div[@id='octolooks']"
+
+#: classes/class-ol-scrapes.php:94 views/scrape-meta-box.php:594
+#: views/scrape-meta-box.php:725 views/scrape-meta-box.php:751
+#: views/scrape-meta-box.php:786 views/scrape-meta-box.php:953
+#: views/scrape-meta-box.php:1073 views/scrape-meta-box.php:1160
+#: views/scrape-meta-box.php:1266 views/scrape-meta-box.php:1351
+#: views/scrape-meta-box.php:1358 views/scrape-meta-box.php:1368
+#: views/scrape-meta-box.php:1439 views/scrape-meta-box.php:1504
+#: views/scrape-meta-box.php:1546 views/scrape-meta-box.php:1727
+#: views/scrape-meta-box.php:1737 views/scrape-meta-box.php:1840
+#: views/scrape-meta-box.php:1887 views/scrape-meta-box.php:1918
+#: views/scrape-meta-box.php:1952 views/scrape-meta-box.php:2027
+#: views/scrape-meta-box.php:2167 views/scrape-meta-box.php:2198
+#: views/scrape-meta-box.php:2368 views/scrape-meta-box.php:2393
+msgid "Please enter a valid value."
+msgstr "请输入一个有效的值。"
+
+#: classes/class-ol-scrapes.php:95 views/scrape-meta-box.php:1550
+msgid "Attribute"
+msgstr "属性"
+
+#: classes/class-ol-scrapes.php:96 views/scrape-meta-box.php:1551
+msgid "e.g. href"
+msgstr "例如 href"
+
+#: classes/class-ol-scrapes.php:97 views/scrape-meta-box.php:1079
+#: views/scrape-meta-box.php:1272 views/scrape-meta-box.php:1445
+msgid "e.g. [scrape_value]"
+msgstr "例如 [scrape_value]"
+
+#: classes/class-ol-scrapes.php:98 views/scrape-meta-box.php:963
+#: views/scrape-meta-box.php:1078 views/scrape-meta-box.php:1271
+#: views/scrape-meta-box.php:1444 views/scrape-meta-box.php:1556
+msgid "Template"
+msgstr "模板"
+
+#: classes/class-ol-scrapes.php:99 views/scrape-meta-box.php:967
+#: views/scrape-meta-box.php:1082 views/scrape-meta-box.php:1275
+#: views/scrape-meta-box.php:1448 views/scrape-meta-box.php:1560
+msgid "value"
+msgstr "价值"
+
+#: classes/class-ol-scrapes.php:100 views/scrape-meta-box.php:1561
+msgid "calculate"
+msgstr "计算"
+
+#: classes/class-ol-scrapes.php:101 views/scrape-meta-box.php:1083
+#: views/scrape-meta-box.php:1172 views/scrape-meta-box.php:1276
+#: views/scrape-meta-box.php:1449 views/scrape-meta-box.php:1562
+msgid "date"
+msgstr "日期"
+
+#: classes/class-ol-scrapes.php:102 views/scrape-meta-box.php:1084
+#: views/scrape-meta-box.php:1179 views/scrape-meta-box.php:1277
+#: views/scrape-meta-box.php:1450 views/scrape-meta-box.php:1563
+msgid "custom field"
+msgstr "自定义字段"
+
+#: classes/class-ol-scrapes.php:103 views/scrape-meta-box.php:1085
+#: views/scrape-meta-box.php:1180 views/scrape-meta-box.php:1278
+#: views/scrape-meta-box.php:1451 views/scrape-meta-box.php:1564
+msgid "source url"
+msgstr "来源网址"
+
+#: classes/class-ol-scrapes.php:104 views/scrape-meta-box.php:1566
+msgid "product url"
+msgstr "产品网址"
+
+#: classes/class-ol-scrapes.php:105 views/scrape-meta-box.php:1567
+msgid "cart url"
+msgstr "购物车网址"
+
+#: classes/class-ol-scrapes.php:106 views/scrape-meta-box.php:998
+#: views/scrape-meta-box.php:1117 views/scrape-meta-box.php:1214
+#: views/scrape-meta-box.php:1310 views/scrape-meta-box.php:1399
+#: views/scrape-meta-box.php:1484 views/scrape-meta-box.php:1602
+#: views/scrape-meta-box.php:1871
+msgid "Add new find and replace rule"
+msgstr "新增查找和替换规则"
+
+#: classes/class-ol-scrapes.php:107 views/scrape-meta-box.php:1004
+#: views/scrape-meta-box.php:1123 views/scrape-meta-box.php:1220
+#: views/scrape-meta-box.php:1316 views/scrape-meta-box.php:1490
+#: views/scrape-meta-box.php:1608
+msgid "Enable template"
+msgstr "启用模板"
+
+#: classes/class-ol-scrapes.php:108 views/scrape-meta-box.php:1005
+#: views/scrape-meta-box.php:1124 views/scrape-meta-box.php:1221
+#: views/scrape-meta-box.php:1317 views/scrape-meta-box.php:1405
+#: views/scrape-meta-box.php:1491 views/scrape-meta-box.php:1609
+#: views/scrape-meta-box.php:1877
+msgid "Enable find and replace rules"
+msgstr "启用查找和替换规则"
+
+#: classes/class-ol-scrapes.php:109 views/scrape-meta-box.php:982
+#: views/scrape-meta-box.php:1100 views/scrape-meta-box.php:1197
+#: views/scrape-meta-box.php:1294 views/scrape-meta-box.php:1383
+#: views/scrape-meta-box.php:1467 views/scrape-meta-box.php:1585
+#: views/scrape-meta-box.php:1855
+msgid "Find"
+msgstr "寻找"
+
+#: classes/class-ol-scrapes.php:110 views/scrape-meta-box.php:989
+#: views/scrape-meta-box.php:1108 views/scrape-meta-box.php:1205
+#: views/scrape-meta-box.php:1301 views/scrape-meta-box.php:1390
+#: views/scrape-meta-box.php:1475 views/scrape-meta-box.php:1593
+#: views/scrape-meta-box.php:1862
+msgid "Replace"
+msgstr "代替"
+
+#: classes/class-ol-scrapes.php:111 views/scrape-meta-box.php:983
+#: views/scrape-meta-box.php:1101 views/scrape-meta-box.php:1198
+#: views/scrape-meta-box.php:1295 views/scrape-meta-box.php:1384
+#: views/scrape-meta-box.php:1468 views/scrape-meta-box.php:1586
+#: views/scrape-meta-box.php:1856
+msgid "e.g. find"
+msgstr "例如查找"
+
+#: classes/class-ol-scrapes.php:112 views/scrape-meta-box.php:990
+#: views/scrape-meta-box.php:1109 views/scrape-meta-box.php:1206
+#: views/scrape-meta-box.php:1302 views/scrape-meta-box.php:1391
+#: views/scrape-meta-box.php:1476 views/scrape-meta-box.php:1594
+#: views/scrape-meta-box.php:1863
+msgid "e.g. replace"
+msgstr "例如替换"
+
+#: classes/class-ol-scrapes.php:113 classes/class-ol-scrapes.php:136
+#: views/scrape-meta-box.php:931
+msgid "Please select a taxonomy"
+msgstr "请选择分类"
+
+#: classes/class-ol-scrapes.php:114
+msgid "Source URL is not valid."
+msgstr "源 URL 无效。"
+
+#: classes/class-ol-scrapes.php:115
+msgid "Post item is not valid."
+msgstr "文章项目无效。"
+
+#: classes/class-ol-scrapes.php:116
+msgid "Selected item is not a link"
+msgstr "所选项目不是链接"
+
+#: classes/class-ol-scrapes.php:117
+msgid "Selected item is not an image"
+msgstr "所选项目不是图像"
+
+#: classes/class-ol-scrapes.php:118 views/scrape-meta-box.php:1237
+#: views/scrape-meta-box.php:1318 views/scrape-meta-box.php:1610
+msgid "Allow HTML tags"
+msgstr "允许 HTML 标签"
+
+#: classes/class-ol-scrapes.php:119 views/scrape-meta-box.php:2061
+msgid "Operator"
+msgstr "操作者"
+
+#: classes/class-ol-scrapes.php:120 views/scrape-meta-box.php:2064
+msgid "Contains"
+msgstr "包含"
+
+#: classes/class-ol-scrapes.php:121 views/scrape-meta-box.php:2065
+msgid "Does not contain"
+msgstr "不包含"
+
+#: classes/class-ol-scrapes.php:122 views/scrape-meta-box.php:2066
+msgid "Exists"
+msgstr "存在"
+
+#: classes/class-ol-scrapes.php:123 views/scrape-meta-box.php:2067
+msgid "Not exists"
+msgstr "不存在"
+
+#: classes/class-ol-scrapes.php:124
+msgid "Equal_to"
+msgstr "等于"
+
+#: classes/class-ol-scrapes.php:125
+msgid "Not_equal_to"
+msgstr "不等于"
+
+#: classes/class-ol-scrapes.php:126
+msgid "Greater_than"
+msgstr "多于"
+
+#: classes/class-ol-scrapes.php:127 views/scrape-meta-box.php:2071
+msgid "Less than"
+msgstr "少于"
+
+#: classes/class-ol-scrapes.php:128 views/scrape-meta-box.php:2080
+msgid "Field"
+msgstr "字段"
+
+#: classes/class-ol-scrapes.php:129 views/scrape-meta-box.php:1054
+#: views/scrape-meta-box.php:1057 views/scrape-meta-box.php:2083
+msgid "Title"
+msgstr "标题"
+
+#: classes/class-ol-scrapes.php:130 views/scrape-meta-box.php:1139
+#: views/scrape-meta-box.php:1142 views/scrape-meta-box.php:2084
+msgid "Content"
+msgstr "内容"
+
+#: classes/class-ol-scrapes.php:131 views/scrape-meta-box.php:1247
+#: views/scrape-meta-box.php:1250 views/scrape-meta-box.php:2085
+msgid "Excerpt"
+msgstr "摘录"
+
+#: classes/class-ol-scrapes.php:133 views/scrape-meta-box.php:1819
+#: views/scrape-meta-box.php:1822 views/scrape-meta-box.php:2087
+msgid "Date"
+msgstr "日期"
+
+#: classes/class-ol-scrapes.php:134 views/scrape-meta-box.php:1236
+#: views/scrape-meta-box.php:1611
+msgid "Do Not update"
+msgstr "不更新"
+
+#: classes/class-ol-scrapes.php:135 views/scrape-meta-box.php:840
+#: views/scrape-meta-box.php:928
+msgid "Taxonomy"
+msgstr "分类"
+
+#: classes/class-ol-scrapes.php:137 views/scrape-meta-box.php:957
+#: views/scrape-meta-box.php:1355
+msgid "Separator"
+msgstr "分隔符"
+
+#: classes/class-ol-scrapes.php:138 views/scrape-meta-box.php:958
+#: views/scrape-meta-box.php:1356
+msgid "e.g. ,"
+msgstr "例如。，"
+
+#: classes/class-ol-scrapes.php:139 views/scrape-meta-box.php:1565
+msgid "affiliate"
+msgstr "会员"
+
+#. Plugin Name of the plugin/theme
+#: classes/class-ol-scrapes.php:185 views/scrape-settings.php:59
+msgid "Scrapes"
+msgstr "Scrapes"
+
+#: classes/class-ol-scrapes.php:185
+msgid "Add New"
+msgstr "新增"
+
+#: classes/class-ol-scrapes.php:185
+msgid "All Scrapes"
+msgstr "所有采集"
+
+#: classes/class-ol-scrapes.php:195
+msgid "Scrapes Support"
+msgstr "Scrapes支持"
+
+#: classes/class-ol-scrapes.php:195
+msgid "Support"
+msgstr "支持"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Afrikaans"
+msgstr "非洲"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Albanian"
+msgstr "阿尔巴尼亚"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Amharic"
+msgstr "阿姆哈拉语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Arabic"
+msgstr "阿拉伯"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Armenian"
+msgstr "亚美尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Azeerbaijani"
+msgstr "阿泽尔拜贾尼语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Basque"
+msgstr "巴斯克"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Belarusian"
+msgstr "白俄罗斯语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Bengali"
+msgstr "孟加拉"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Bosnian"
+msgstr "波斯尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Bulgarian"
+msgstr "保加利亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Catalan"
+msgstr "加泰罗尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Cebuano"
+msgstr "宿雾语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Chichewa"
+msgstr "奇切瓦语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Chinese (Simplified)"
+msgstr "中文(简体)"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Chinese (Traditional)"
+msgstr "中文(繁体)"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Corsican"
+msgstr "科西嘉岛"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Croatian"
+msgstr "克罗地亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Czech"
+msgstr "捷克语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Danish"
+msgstr "丹麦语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Dutch"
+msgstr "荷兰语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "English"
+msgstr "英语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Esperanto"
+msgstr "世界语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Estonian"
+msgstr "爱沙尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Filipino"
+msgstr "菲律宾"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Finnish"
+msgstr "芬兰"
+
+#: classes/class-ol-scrapes.php:403
+msgid "French"
+msgstr "法语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Frisian"
+msgstr "弗里斯兰语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Galician"
+msgstr "加利西亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Georgian"
+msgstr "格鲁吉亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "German"
+msgstr "德语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Greek"
+msgstr "希腊语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Gujarati"
+msgstr "古吉拉特语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Haitian Creole"
+msgstr "海地克里奥尔语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hausa"
+msgstr "豪萨语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hawaiian"
+msgstr "夏威夷语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hebrew"
+msgstr "希伯来语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hindi"
+msgstr "海地"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hmong"
+msgstr "苗族"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Hungarian"
+msgstr "匈牙利"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Icelandic"
+msgstr "冰岛"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Igbo"
+msgstr "伊博语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Indonesian"
+msgstr "印度尼西亚"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Irish"
+msgstr "爱尔兰"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Italian"
+msgstr "意大利语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Japanese"
+msgstr "日本"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Javanese"
+msgstr "爪哇语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Kannada"
+msgstr "卡纳达语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Kazakh"
+msgstr "哈萨克语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Khmer"
+msgstr "高棉语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Korean"
+msgstr "韩国"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Kurdish"
+msgstr "库尔德"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Kyrgyz"
+msgstr "吉尔吉斯语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Lao"
+msgstr "Lao"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Latin"
+msgstr "拉丁"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Latvian"
+msgstr "拉脱维亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Lithuanian"
+msgstr "立陶宛语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Luxembourgish"
+msgstr "卢森堡语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Macedonian"
+msgstr "马其顿语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Malagasy"
+msgstr "马尔加什"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Malay"
+msgstr "马来语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Malayalam"
+msgstr "马拉雅拉姆语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Maltese"
+msgstr "马耳他语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Maori"
+msgstr "毛利"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Marathi"
+msgstr "马拉地语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Mongolian"
+msgstr "蒙古"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Burmese"
+msgstr "缅甸语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Nepali"
+msgstr "尼泊尔语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Norwegian"
+msgstr "挪威"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Pashto"
+msgstr "普什图语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Persian"
+msgstr "波斯语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Polish"
+msgstr "抛光"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Portuguese"
+msgstr "葡萄牙语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Punjabi"
+msgstr "旁遮普语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Romanian"
+msgstr "罗马尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Russian"
+msgstr "俄语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Samoan"
+msgstr "萨摩亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Scots Gaelic"
+msgstr "苏格兰盖尔语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Serbian"
+msgstr "塞尔维亚"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Sesotho"
+msgstr "英语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Shona"
+msgstr "绍纳语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Sindhi"
+msgstr "信德语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Sinhala"
+msgstr "僧伽罗语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Slovak"
+msgstr "斯洛伐克语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Slovenian"
+msgstr "斯洛文尼亚语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Somali"
+msgstr "索马里"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Spanish"
+msgstr "西班牙语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Sundanese"
+msgstr "巽他语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Swahili"
+msgstr "斯瓦希里语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Swedish"
+msgstr "瑞典"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Tajik"
+msgstr "塔吉克"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Tamil"
+msgstr "泰米尔语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Telugu"
+msgstr "泰卢固语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Thai"
+msgstr "泰国"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Turkish"
+msgstr "土耳其"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Ukrainian"
+msgstr "乌克兰"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Urdu"
+msgstr "乌尔都语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Uzbek"
+msgstr "乌兹别克语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Vietnamese"
+msgstr "越南语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Welsh"
+msgstr "威尔士语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Xhosa"
+msgstr "科萨语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Yiddish"
+msgstr "意第绪语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Yoruba"
+msgstr "约鲁巴语"
+
+#: classes/class-ol-scrapes.php:403
+msgid "Zulu"
+msgstr "祖鲁语"
+
+#: classes/class-ol-scrapes.php:488 classes/class-ol-scrapes.php:3768
+msgid "Deactivated"
+msgstr "停用"
+
+#: classes/class-ol-scrapes.php:492 classes/class-ol-scrapes.php:3772
+msgid "Preparing"
+msgstr "准备中"
+
+#: classes/class-ol-scrapes.php:496 classes/class-ol-scrapes.php:3776
+msgid "Waiting next run"
+msgstr "等待下一次运行"
+
+#: classes/class-ol-scrapes.php:500 classes/class-ol-scrapes.php:3780
+msgid "Running"
+msgstr "运行中"
+
+#: classes/class-ol-scrapes.php:504 classes/class-ol-scrapes.php:3784
+msgid "Complete"
+msgstr "完全"
+
+#: classes/class-ol-scrapes.php:512 classes/class-ol-scrapes.php:513
+#: classes/class-ol-scrapes.php:514 classes/class-ol-scrapes.php:3801
+#: classes/class-ol-scrapes.php:3802 classes/class-ol-scrapes.php:3803
+msgid "None"
+msgstr "无"
+
+#: classes/class-ol-scrapes.php:523 classes/class-ol-scrapes.php:3813
+msgid "No Schedule"
+msgstr "无计划"
+
+#: classes/class-ol-scrapes.php:707
+msgid "Every 5 minutes"
+msgstr "5min"
+
+#: classes/class-ol-scrapes.php:710
+msgid "Every 10 minutes"
+msgstr "10min"
+
+#: classes/class-ol-scrapes.php:713
+msgid "Every 15 minutes"
+msgstr "15min"
+
+#: classes/class-ol-scrapes.php:716
+msgid "Every 30 minutes"
+msgstr "30min"
+
+#: classes/class-ol-scrapes.php:719
+msgid "Every 45 minutes"
+msgstr "45min"
+
+#: classes/class-ol-scrapes.php:722
+msgid "Every hour"
+msgstr "1H"
+
+#: classes/class-ol-scrapes.php:725
+msgid "Every 2 hours"
+msgstr "2H"
+
+#: classes/class-ol-scrapes.php:728
+msgid "Every 4 hours"
+msgstr " 4H"
+
+#: classes/class-ol-scrapes.php:731
+msgid "Every 6 hours"
+msgstr "6H"
+
+#: classes/class-ol-scrapes.php:734
+msgid "Every 8 hours"
+msgstr "8H"
+
+#: classes/class-ol-scrapes.php:737
+msgid "Every 12 hours"
+msgstr "12H"
+
+#: classes/class-ol-scrapes.php:740
+msgid "Every day"
+msgstr "1D"
+
+#: classes/class-ol-scrapes.php:743
+msgid "Every 2 days"
+msgstr "2D"
+
+#: classes/class-ol-scrapes.php:746
+msgid "Every 3 days"
+msgstr "3D"
+
+#: classes/class-ol-scrapes.php:749
+msgid "Every week"
+msgstr "W"
+
+#: classes/class-ol-scrapes.php:752
+msgid "Every 2 weeks"
+msgstr "2W"
+
+#: classes/class-ol-scrapes.php:755
+msgid "Every month"
+msgstr "1Mon"
+
+#: classes/class-ol-scrapes.php:1875 classes/class-ol-scrapes.php:1878
+msgid "The value received was successfully recorded!"
+msgstr "收到的值记录成功！"
+
+#: classes/class-ol-scrapes.php:1881 classes/class-ol-scrapes.php:1883
+#: classes/class-ol-scrapes.php:1890 classes/class-ol-scrapes.php:1893
+msgid "The value received failed!"
+msgstr "取值失败！"
+
+#: classes/class-ol-scrapes.php:1886 classes/class-ol-scrapes.php:1887
+msgid "At present, both color and size are not received at the same time!"
+msgstr "目前没有同时收到颜色和尺码！"
+
+#: classes/class-ol-scrapes.php:2716
+msgid "Must read : "
+msgstr "必读 ："
+
+#: classes/class-ol-scrapes.php:3052
+msgid "Your "
+msgstr "你的"
+
+#: classes/class-ol-scrapes.php:3080
+msgid " error occurred during "
+msgstr "期间发生错误"
+
+#: classes/class-ol-scrapes.php:3085
+msgid ""
+" error occurred while getting your cron jobs. Your cron type is saved as "
+"WordPress cron type."
+msgstr "获取您的 cron 作业时出错。您的 cron 类型将保存为 WordPress cron 类型。"
+
+#: classes/class-ol-scrapes.php:3121
+msgid ""
+"DISABLE_WP_CRON is probably set true in wp-config.php.<br/>Please delete or "
+"set it to false, or make sure that you ping wp-cron.php automatically."
+msgstr ""
+"DISABLE_WP_CRON可能在wp-config.php中被设置为true。<br/>请删除或设置为false，"
+"或者确保你自动Ping wp-cron.php。"
+
+#: classes/class-ol-scrapes.php:3628
+msgid "View All Scrapes"
+msgstr "查看所有采集"
+
+#: classes/class-ol-scrapes.php:3751 views/scrape-meta-box.php:1788
+#: views/scrape-meta-box.php:1791
+msgid "Status"
+msgstr "状态"
+
+#: classes/class-ol-scrapes.php:3752
+msgid "Schedules"
+msgstr "时间表"
+
+#: classes/class-ol-scrapes.php:3753
+msgid "Actions"
+msgstr "操作"
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Last Run:"
+msgstr "上次运行："
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Last Complete:"
+msgstr "最后完成："
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Last Scrape:"
+msgstr "最后采集："
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Next Run:"
+msgstr "下一次运行："
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Total Run:"
+msgstr "总运行："
+
+#: classes/class-ol-scrapes.php:3815
+msgid "Count Post:"
+msgstr "计数文章："
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Edit"
+msgstr "编辑"
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Run"
+msgstr "运行"
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Pause"
+msgstr "暂停"
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Copy"
+msgstr "复制"
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Trash"
+msgstr "垃圾"
+
+#: classes/class-ol-scrapes.php:3820
+msgid "Restore"
+msgstr "恢复"
+
+#: classes/class-ol-scrapes.php:4242
+msgid ""
+"An error occurred while connecting to server. Please check your connection."
+msgstr "连接到服务器时发生错误。请检查您的连接。"
+
+#: classes/class-ol-scrapes.php:4243
+msgid ""
+"Domain name is not matching with your site. Please check your domain name."
+msgstr "域名与您的站点不匹配。请检查您的域名。"
+
+#: classes/class-ol-scrapes.php:4244
+msgid "Purchase code is validated."
+msgstr "购买代码已验证。"
+
+#: classes/class-ol-scrapes.php:4245
+msgid "Purchase code is removed from settings."
+msgstr "购买代码已从设置中删除。"
+
+#: classes/class-ol-scrapes.php:4246
+msgid "Post fields are missing. Please fill the required fields."
+msgstr "文章字段丢失。请填写必填字段。"
+
+#: classes/class-ol-scrapes.php:4247
+msgid "Purchase code is not approved. Please check your purchase code."
+msgstr "购买代码未获批准。请检查您的购买代码。"
+
+#: classes/class-ol-scrapes.php:4248
+msgid "Purchase code is already exists. Please provide another purchase code."
+msgstr "购买代码已经存在。请提供另一个购买代码。"
+
+#: classes/class-ol-scrapes.php:4249
+msgid "Please complete your payment or contact to Octolooks staff."
+msgstr "请完成付款或联系 Octolooks 工作员。"
+
+#: views/scrape-meta-box.php:3
+msgid "Error!"
+msgstr "错误！"
+
+#: views/scrape-meta-box.php:4
+msgid "This page requires JavaScript to run properly."
+msgstr "此页面需要 JavaScript 才能正常运行。"
+
+#: views/scrape-meta-box.php:395
+msgid "Immediately"
+msgstr "立即"
+
+#: views/scrape-meta-box.php:396
+msgid "1 hour later"
+msgstr "1小时后"
+
+#: views/scrape-meta-box.php:397
+msgid "2 hours later"
+msgstr "2小时后"
+
+#: views/scrape-meta-box.php:398
+msgid "3 hours later"
+msgstr "3小时后"
+
+#: views/scrape-meta-box.php:399
+msgid "4 hours later"
+msgstr "4小时后"
+
+#: views/scrape-meta-box.php:400
+msgid "5 hours later"
+msgstr "5小时后"
+
+#: views/scrape-meta-box.php:401
+msgid "6 hours later"
+msgstr "6小时后"
+
+#: views/scrape-meta-box.php:402
+msgid "7 hours later"
+msgstr "7小时后"
+
+#: views/scrape-meta-box.php:403
+msgid "8 hours later"
+msgstr "8小时后"
+
+#: views/scrape-meta-box.php:404
+msgid "9 hours later"
+msgstr "9小时后"
+
+#: views/scrape-meta-box.php:405
+msgid "10 hours later"
+msgstr "10小时后"
+
+#: views/scrape-meta-box.php:406
+msgid "11 hours later"
+msgstr "11小时后"
+
+#: views/scrape-meta-box.php:407
+msgid "12 hours later"
+msgstr "12小时后"
+
+#: views/scrape-meta-box.php:408
+msgid "13 hours later"
+msgstr "13小时后"
+
+#: views/scrape-meta-box.php:409
+msgid "14 hours later"
+msgstr "14小时后"
+
+#: views/scrape-meta-box.php:410
+msgid "15 hours later"
+msgstr "15小时后"
+
+#: views/scrape-meta-box.php:411
+msgid "16 hours later"
+msgstr "16小时后"
+
+#: views/scrape-meta-box.php:412
+msgid "17 hours later"
+msgstr "17小时后"
+
+#: views/scrape-meta-box.php:413
+msgid "18 hours later"
+msgstr "18小时后"
+
+#: views/scrape-meta-box.php:414
+msgid "19 hours later"
+msgstr "19小时后"
+
+#: views/scrape-meta-box.php:415
+msgid "20 hours later"
+msgstr "20小时后"
+
+#: views/scrape-meta-box.php:416
+msgid "21 hours later"
+msgstr "21小时后"
+
+#: views/scrape-meta-box.php:417
+msgid "22 hours later"
+msgstr "22小时后"
+
+#: views/scrape-meta-box.php:418
+msgid "23 hours later"
+msgstr "23小时后"
+
+#: views/scrape-meta-box.php:419
+msgid "24 hours later"
+msgstr "24小时后"
+
+#: views/scrape-meta-box.php:560
+msgid "Give a name and select task type to start."
+msgstr "提供名称并选择要开始的任务类型。"
+
+#: views/scrape-meta-box.php:567
+msgid "Modify options and save changes."
+msgstr "修改选项并保存更改。"
+
+#: views/scrape-meta-box.php:583
+msgid "The field used to give a name and define task (Required)."
+msgstr "用于命名和定义任务的字段（必填）。"
+
+#: views/scrape-meta-box.php:593
+msgid "e.g. Scrapes"
+msgstr "例如Scrapes"
+
+#: views/scrape-meta-box.php:602 views/scrape-meta-box.php:605
+msgid "Task type"
+msgstr "任务类型"
+
+#: views/scrape-meta-box.php:607
+msgid "The field used to set running type of the task (Required)."
+msgstr "用于设置任务运行类型的字段（必填）。"
+
+#: views/scrape-meta-box.php:623
+msgid "Single"
+msgstr "单一"
+
+#: views/scrape-meta-box.php:632
+msgid "Serial"
+msgstr "连续"
+
+#: views/scrape-meta-box.php:641
+msgid "Feed"
+msgstr "Feed"
+
+#: views/scrape-meta-box.php:653
+msgid "Request"
+msgstr "请求"
+
+#: views/scrape-meta-box.php:659 views/scrape-meta-box.php:662
+msgid "Cookies"
+msgstr "Cookies"
+
+#: views/scrape-meta-box.php:664
+msgid ""
+"The field used to set which cookie values to be sent to source url requests."
+msgstr "该字段用于设置将哪些 cookie 值发送到源 url 请求。"
+
+#: views/scrape-meta-box.php:699
+msgid "Add new cookie"
+msgstr "新增 cookie"
+
+#: views/scrape-meta-box.php:706 views/scrape-meta-box.php:709
+msgid "Source URL"
+msgstr "来源网址"
+
+#: views/scrape-meta-box.php:711
+msgid "The field used to set which source you want to scrape (Required)."
+msgstr "该字段用于设置您要抓取的来源（必填）。"
+
+#: views/scrape-meta-box.php:721
+msgid "URL"
+msgstr "网址"
+
+#: views/scrape-meta-box.php:722
+msgid "e.g. http://octolooks.com"
+msgstr "e.g. http://octolooks.com"
+
+#: views/scrape-meta-box.php:732 views/scrape-meta-box.php:735
+msgid "Post item"
+msgstr "发布项目"
+
+#: views/scrape-meta-box.php:737
+msgid "The field used to set which links redirect to detail pages (Required)."
+msgstr "用于设置哪些链接重定向到详细信息页面的字段（必填）。"
+
+#: views/scrape-meta-box.php:757
+msgid "Exact match only"
+msgstr "仅限精确匹配"
+
+#: views/scrape-meta-box.php:764 views/scrape-meta-box.php:767
+msgid "Next page"
+msgstr "下一页"
+
+#: views/scrape-meta-box.php:769
+msgid "The field used to set which link redirects to next list page."
+msgstr "该字段用于设置哪个链接重定向到下一个列表页面。"
+
+#: views/scrape-meta-box.php:778 views/scrape-meta-box.php:779
+msgid "Next page is found automatically."
+msgstr "自动找到下一页。"
+
+#: views/scrape-meta-box.php:822
+msgid "Add new parameter"
+msgstr "添加新参数"
+
+#: views/scrape-meta-box.php:828 views/scrape-meta-box.php:1132
+#: views/scrape-meta-box.php:1230 views/scrape-meta-box.php:1325
+#: views/scrape-meta-box.php:1411 views/scrape-meta-box.php:1511
+#: views/scrape-meta-box.php:1895
+msgid "Select from source"
+msgstr "从源中选择"
+
+#: views/scrape-meta-box.php:829
+msgid "Enter URL parameter"
+msgstr "输入网址参数"
+
+#: views/scrape-meta-box.php:846 views/scrape-meta-box.php:849
+msgid "Post type"
+msgstr "文章类型"
+
+#: views/scrape-meta-box.php:851
+msgid ""
+"The field used to set the post type for posts which will be created "
+"automatically by the plugin in your WordPress site."
+msgstr ""
+"该字段用于设置文章的文章类型，这些文章将由您的 WordPress 站点中的插件自动创"
+"建。"
+
+#: views/scrape-meta-box.php:867 views/scrape-meta-box.php:1663
+#: views/scrape-meta-box.php:1678 views/scrape-meta-box.php:1781
+#: views/scrape-meta-box.php:1812 views/scrape-meta-box.php:1981
+#: views/scrape-meta-box.php:2142 views/scrape-meta-box.php:2269
+#: views/scrape-meta-box.php:2416
+msgid "Please select a valid value."
+msgstr "请选择一个有效值。"
+
+#: views/scrape-meta-box.php:874 views/scrape-meta-box.php:877
+msgid "Product type"
+msgstr "产品类型"
+
+#: views/scrape-meta-box.php:879
+msgid "The field used to set the product type"
+msgstr "用于设置产品类型的字段"
+
+#: views/scrape-meta-box.php:905
+msgid ""
+"Aoutomatic Change the variable to simple (If the product did not have a "
+"variable attribute)"
+msgstr "自动将变量更改为简单（如果产品没有变量属性）"
+
+#: views/scrape-meta-box.php:912 views/scrape-meta-box.php:915
+msgid "Create categories"
+msgstr "创建分类"
+
+#: views/scrape-meta-box.php:917
+msgid ""
+"The field used to set the categories of automatically created posts to which "
+"newly created categories by the plugin in your WordPress site."
+msgstr ""
+"该字段用于将自动创建的文章的分类设置为插件在您的 WordPress 站点中新创建的分"
+"类。"
+
+#: views/scrape-meta-box.php:964 views/scrape-meta-box.php:1557
+msgid "e.g [scrape_value]"
+msgstr "例如 [scrape_value]"
+
+#: views/scrape-meta-box.php:1012
+msgid "Add new taxonomy"
+msgstr "添加新分类"
+
+#: views/scrape-meta-box.php:1019 views/scrape-meta-box.php:1022
+msgid "Categories"
+msgstr "分类"
+
+#: views/scrape-meta-box.php:1024
+msgid ""
+"The field used to set the categories of posts which will be created "
+"automatically by the plugin in your WordPress site."
+msgstr "该字段用于设置将由您的 WordPress 站点中的插件自动创建的文章分类。"
+
+#: views/scrape-meta-box.php:1048
+msgid "Post"
+msgstr "文章"
+
+#: views/scrape-meta-box.php:1059
+msgid ""
+"The field used to set post titles which will be created automatically by the "
+"plugin in your WordPress site."
+msgstr ""
+"用于设置文章标题的字段，该字段将由您的 WordPress 站点中的插件自动创建。"
+
+#: views/scrape-meta-box.php:1125
+msgid ""
+"Do Not update(To use this option, the unique post must be set to url only)"
+msgstr "不更新（要使用此选项，必须将唯一文章设置为仅 url）"
+
+#: views/scrape-meta-box.php:1131 views/scrape-meta-box.php:1228
+#: views/scrape-meta-box.php:1510 views/scrape-meta-box.php:1894
+msgid "Detect from feed"
+msgstr "从Feed中检测"
+
+#: views/scrape-meta-box.php:1144
+msgid ""
+"The field used to set post content which will be created automatically by "
+"the plugin in your WordPress site."
+msgstr "该字段用于设置将由您的 WordPress 站点中的插件自动创建的文章内容。"
+
+#: views/scrape-meta-box.php:1153 views/scrape-meta-box.php:1154
+msgid "Content is found automatically."
+msgstr "自动找到内容。"
+
+#: views/scrape-meta-box.php:1168
+msgid "content"
+msgstr "内容"
+
+#: views/scrape-meta-box.php:1169
+msgid "title"
+msgstr "标题"
+
+#: views/scrape-meta-box.php:1170
+msgid "categories"
+msgstr "分类"
+
+#: views/scrape-meta-box.php:1171
+msgid "tags"
+msgstr "标签"
+
+#: views/scrape-meta-box.php:1173
+msgid "featured image"
+msgstr "特色图片"
+
+#: views/scrape-meta-box.php:1174
+msgid "gallery"
+msgstr "画廊"
+
+#: views/scrape-meta-box.php:1176
+msgid "aparat"
+msgstr "旁白"
+
+#: views/scrape-meta-box.php:1178
+msgid "embed"
+msgstr "嵌入"
+
+#: views/scrape-meta-box.php:1222
+msgid "Delete all links in the content"
+msgstr "删除内容中的所有链接"
+
+#: views/scrape-meta-box.php:1229
+msgid "Detect automatically"
+msgstr "自动检测"
+
+#: views/scrape-meta-box.php:1238
+msgid "Download images to media library"
+msgstr "将图像下载到媒体库"
+
+#: views/scrape-meta-box.php:1239
+msgid ""
+"Enable this option if the source site images have data-src or data-lazy-src "
+"feature"
+msgstr "如果源站点图像具有 data-src 或 data-lazy-src 功能，请启用此选项"
+
+#: views/scrape-meta-box.php:1240
+msgid "Add watermark to images "
+msgstr "为图像添加水印"
+
+#: views/scrape-meta-box.php:1240
+msgid "(Requires Image Watermark plugin)"
+msgstr "（需要图像水印插件）"
+
+#: views/scrape-meta-box.php:1252
+msgid ""
+"The field used to set post excerpt which will be created automatically by "
+"the plugin in your WordPress site."
+msgstr "该字段用于设置将由您的 WordPress 站点中的插件自动创建的文章摘录。"
+
+#: views/scrape-meta-box.php:1324
+msgid "Generate from content"
+msgstr "从内容生成"
+
+#: views/scrape-meta-box.php:1332 views/scrape-meta-box.php:1335
+msgid "Tags"
+msgstr "标签"
+
+#: views/scrape-meta-box.php:1337
+msgid ""
+"The field used to set the tags of posts which will be created automatically "
+"by the plugin in your WordPress site."
+msgstr "该字段用于设置将由您的 WordPress 站点中的插件自动创建的文章标签。"
+
+#: views/scrape-meta-box.php:1366
+msgid "e.g. octolooks, scrapes"
+msgstr "例如 octolooks、Scrapes"
+
+#: views/scrape-meta-box.php:1412 views/scrape-meta-box.php:1896
+msgid "Enter custom"
+msgstr "输入自定义"
+
+#: views/scrape-meta-box.php:1424
+msgid ""
+"The field used to set featured image for posts which will be created "
+"automatically by the plugin in your WordPress site."
+msgstr ""
+"该字段用于为文章设置特色图片，这些图片将由您的 WordPress 网站中的插件自动创"
+"建。"
+
+#: views/scrape-meta-box.php:1433
+msgid "Featured image is found automatically."
+msgstr "自动找到特色图片。"
+
+#: views/scrape-meta-box.php:1492
+msgid "Dont upload images and gallery to media library"
+msgstr "不要将图片和图库上传到媒体库"
+
+#: views/scrape-meta-box.php:1493
+msgid "Do Not update(your posts must have an featured image)"
+msgstr "不要更新（您的文章必须有特色图片）"
+
+#: views/scrape-meta-box.php:1501 views/scrape-meta-box.php:2024
+#: views/scrape-meta-box.php:2164 views/scrape-meta-box.php:2195
+#: views/scrape-meta-box.php:2365 views/scrape-meta-box.php:2390
+msgid "e.g. 100"
+msgstr "例如 100"
+
+#: views/scrape-meta-box.php:1512
+msgid "Select from media library"
+msgstr "从媒体库中选择"
+
+#: views/scrape-meta-box.php:1519 views/scrape-meta-box.php:1522
+msgid "Custom fields"
+msgstr "自定义字段"
+
+#: views/scrape-meta-box.php:1524
+msgid ""
+"The field used to set the custom meta fields of posts which will be created "
+"automatically by the plugin in your WordPress site."
+msgstr ""
+"该字段用于设置文章的自定义元字段，这些字段将由您的 WordPress 站点中的插件自动"
+"创建。"
+
+#: views/scrape-meta-box.php:1621
+msgid "Add new custom field"
+msgstr "新增自定义字段"
+
+#: views/scrape-meta-box.php:1632
+msgid "Customize"
+msgstr "自定义"
+
+#: views/scrape-meta-box.php:1638 views/scrape-meta-box.php:1641
+msgid "Translate fields"
+msgstr "翻译字段"
+
+#: views/scrape-meta-box.php:1643
+msgid ""
+"The field used to set the translation language for all fields of "
+"automatically created posts by the plugin in your WordPress site."
+msgstr ""
+"该字段用于为您的 WordPress 站点中插件自动创建的文章的所有字段设置翻译语言。"
+
+#: views/scrape-meta-box.php:1653
+msgid "Source"
+msgstr "来源"
+
+#: views/scrape-meta-box.php:1656 views/scrape-meta-box.php:1671
+msgid "Please select a language"
+msgstr "请选择语言"
+
+#: views/scrape-meta-box.php:1668
+msgid "Target"
+msgstr "目标"
+
+#: views/scrape-meta-box.php:1688 views/scrape-meta-box.php:1743
+#: views/scrape-meta-box.php:2033
+msgid "Enable"
+msgstr "启用"
+
+#: views/scrape-meta-box.php:1690
+msgid "Please enable the translation feature in the Technical Scapes settings."
+msgstr "请在 Technical Scapes 设置中启用翻译功能。"
+
+#: views/scrape-meta-box.php:1693
+msgid ""
+"You must install and enable the Technical Scrapes plugin to enable "
+"translation."
+msgstr "您必须安装并启用 Technical Scrapes 插件才能启用翻译。"
+
+#: views/scrape-meta-box.php:1693
+msgid " buy technical scrapes plugin"
+msgstr "购买技术Scrapes插件"
+
+#: views/scrape-meta-box.php:1701 views/scrape-meta-box.php:1704
+msgid "Spin fields"
+msgstr "Spin fields"
+
+#: views/scrape-meta-box.php:1706
+msgid ""
+"The field used to set the spinner api parameters for all fields of "
+"automatically created posts by the plugin in your WordPress site."
+msgstr ""
+"该字段用于为您的 WordPress 站点中插件自动创建的文章的所有字段设置微调器 api "
+"参数。"
+
+#: views/scrape-meta-box.php:1716
+msgid "Spinner feature requires "
+msgstr "Spinner功能需要"
+
+#: views/scrape-meta-box.php:1716
+msgid "The Best Spinner"
+msgstr "最好的Spinner"
+
+#: views/scrape-meta-box.php:1716
+msgid " account which you can create new from "
+msgstr "您可以从中创建新帐户"
+
+#: views/scrape-meta-box.php:1716
+msgid ". You can also use other 3rd party "
+msgstr ". 您也可以使用其他第 3 方"
+
+#: views/scrape-meta-box.php:1716
+msgid "spinner plugins"
+msgstr "Spinner插件"
+
+#: views/scrape-meta-box.php:1716
+msgid " for WordPress."
+msgstr "对于 WordPress。"
+
+#: views/scrape-meta-box.php:1722
+msgid "E-mail"
+msgstr "电子邮件"
+
+#: views/scrape-meta-box.php:1724
+msgid "e.g. contact@octolooks.com"
+msgstr "例如 contact@octolooks.com"
+
+#: views/scrape-meta-box.php:1732 views/scrape-meta-box.php:1808
+msgid "Password"
+msgstr "密码"
+
+#: views/scrape-meta-box.php:1734
+msgid "e.g. password"
+msgstr "例如密码"
+
+#: views/scrape-meta-box.php:1754
+msgid "Publish"
+msgstr "发布"
+
+#: views/scrape-meta-box.php:1760 views/scrape-meta-box.php:1763
+msgid "Author"
+msgstr "作者"
+
+#: views/scrape-meta-box.php:1765
+msgid ""
+"The field used to set the publishing author for automatically created posts "
+"by the plugin in your WordPress site."
+msgstr "该字段用于为插件在您的 WordPress 站点中自动创建的文章设置发布作者。"
+
+#: views/scrape-meta-box.php:1793
+msgid ""
+"The field used to set which post status for automatically created posts by "
+"the plugin in your WordPress site."
+msgstr "该字段用于设置插件在您的 WordPress 站点中自动创建的文章的文章状态。"
+
+#: views/scrape-meta-box.php:1802
+msgid "Published"
+msgstr "已发布"
+
+#: views/scrape-meta-box.php:1803
+msgid "Draft"
+msgstr "草稿"
+
+#: views/scrape-meta-box.php:1804
+msgid "Pending review"
+msgstr "待审核"
+
+#: views/scrape-meta-box.php:1805
+msgid "Private"
+msgstr "私有"
+
+#: views/scrape-meta-box.php:1806
+msgid "Password protected"
+msgstr "密码保护"
+
+#: views/scrape-meta-box.php:1809
+msgid "Enter your password"
+msgstr "输入您的密码"
+
+#: views/scrape-meta-box.php:1811
+msgid "Automatic change to publish at update time"
+msgstr "自动更改以在更新时发布"
+
+#: views/scrape-meta-box.php:1824
+msgid ""
+"The field used to set the publish date of posts which will be created "
+"automatically by the plugin in your WordPress site."
+msgstr ""
+"该字段用于设置文章的发布日期，这些文章将由您的 WordPress 站点中的插件自动创"
+"建。"
+
+#: views/scrape-meta-box.php:1833 views/scrape-meta-box.php:1834
+msgid "Date is found automatically."
+msgstr "自动找到日期。"
+
+#: views/scrape-meta-box.php:1885
+msgid "e.g. YYYY-MM-DD HH:mm:ss"
+msgstr "例如 YYYY-MM-DD HH:mm:ss"
+
+#: views/scrape-meta-box.php:1893
+msgid "Process time"
+msgstr "处理时间"
+
+#: views/scrape-meta-box.php:1903 views/scrape-meta-box.php:1906
+msgid "Discussion"
+msgstr "讨论"
+
+#: views/scrape-meta-box.php:1908
+msgid ""
+"The field used to set whether user comments are allowed for automatically "
+"created posts by the plugin in your WordPress site or not."
+msgstr ""
+"该字段用于设置是否允许用户评论由您的 WordPress 站点中的插件自动创建的文章。"
+
+#: views/scrape-meta-box.php:1917
+msgid "Allow comments"
+msgstr "允许评论"
+
+#: views/scrape-meta-box.php:1929
+msgid "Filter"
+msgstr "筛选"
+
+#: views/scrape-meta-box.php:1935 views/scrape-meta-box.php:1938
+msgid "Unique post check"
+msgstr "独特的文章检查"
+
+#: views/scrape-meta-box.php:1940
+msgid "The field to use whether posts should be unique or not."
+msgstr "该字段用于文章是否应该是唯一的。"
+
+#: views/scrape-meta-box.php:1949
+msgid "From title"
+msgstr "从标题"
+
+#: views/scrape-meta-box.php:1950
+msgid "From content"
+msgstr "从内容"
+
+#: views/scrape-meta-box.php:1951
+msgid "From source url"
+msgstr "从源网址"
+
+#: views/scrape-meta-box.php:1959 views/scrape-meta-box.php:1962
+msgid "On existing post"
+msgstr "在现有文章上"
+
+#: views/scrape-meta-box.php:1964
+msgid ""
+"The field to set the action when a post in source url already exists in the "
+"WordPress site."
+msgstr "当源 url 中的文章已存在于 WordPress 站点中时设置操作的字段。"
+
+#: views/scrape-meta-box.php:1973 views/scrape-meta-box.php:2414
+msgid "Skip to next process"
+msgstr "跳到下一个过程"
+
+#: views/scrape-meta-box.php:1974
+msgid "Complete process"
+msgstr "完整流程"
+
+#: views/scrape-meta-box.php:1975
+msgid "Update post"
+msgstr "更新文章"
+
+#: views/scrape-meta-box.php:1976
+msgid "Special update without product re-processing"
+msgstr "无需产品再加工的特殊更新"
+
+#: views/scrape-meta-box.php:1978
+msgid "Price"
+msgstr "价格"
+
+#: views/scrape-meta-box.php:1979
+msgid "Stock"
+msgstr "库存"
+
+#: views/scrape-meta-box.php:1988 views/scrape-meta-box.php:1991
+msgid "existing custom fields"
+msgstr "现有自定义字段"
+
+#: views/scrape-meta-box.php:1993
+msgid ""
+"By activating this option, you can avoid deleting the fields that you define "
+"manually in the posts. (Such as product attributes)."
+msgstr ""
+"通过激活此选项，您可以避免删除您在文章中手动定义的字段。（例如产品属性）。"
+
+#: views/scrape-meta-box.php:2002
+msgid "Do not delete the fields in the post"
+msgstr "不要删除文章中的字段"
+
+#: views/scrape-meta-box.php:2009 views/scrape-meta-box.php:2012
+msgid "Complete run on loop"
+msgstr "完整的循环运行"
+
+#: views/scrape-meta-box.php:2014
+msgid ""
+"The field to set how many on existing post occurrence is needed to stop the "
+"task until next run time in order to save (Required)"
+msgstr ""
+"设置现有文章发生次数的字段需要停止任务直到下一次运行时间才能保存（必需）"
+
+#: views/scrape-meta-box.php:2025 views/scrape-meta-box.php:2165
+msgid "posts"
+msgstr "文章"
+
+#: views/scrape-meta-box.php:2040 views/scrape-meta-box.php:2043
+msgid "Filters"
+msgstr "过滤器"
+
+#: views/scrape-meta-box.php:2045
+msgid ""
+"The option to set filters which are applied to posts before they are created."
+msgstr "设置在创建文章之前应用于文章的过滤器的选项。"
+
+#: views/scrape-meta-box.php:2068
+msgid "Equal to"
+msgstr "等于"
+
+#: views/scrape-meta-box.php:2069
+msgid "Not equal to"
+msgstr "不等于"
+
+#: views/scrape-meta-box.php:2070
+msgid "Greater than"
+msgstr "好于"
+
+#: views/scrape-meta-box.php:2089
+msgid "Custom field"
+msgstr "自定义字段"
+
+#: views/scrape-meta-box.php:2107
+msgid "Add new filter"
+msgstr "添加新过滤器"
+
+#: views/scrape-meta-box.php:2120
+msgid "Schedule"
+msgstr "日程"
+
+#: views/scrape-meta-box.php:2126 views/scrape-meta-box.php:2129
+msgid "Cron type"
+msgstr "计划类型"
+
+#: views/scrape-meta-box.php:2131
+msgid ""
+"The field used to set the method of calling the task when it is due time in "
+"the plugin in your WordPress site."
+msgstr "该字段用于设置在 WordPress 站点的插件中到期时调用任务的方法。"
+
+#: views/scrape-meta-box.php:2140
+msgid "WordPress"
+msgstr "WordPress"
+
+#: views/scrape-meta-box.php:2149 views/scrape-meta-box.php:2152
+msgid "Total posts"
+msgstr "文章总数"
+
+#: views/scrape-meta-box.php:2154
+msgid ""
+"The field used to set how many posts will be created in the task in each run "
+"(Required)."
+msgstr "用于设置每次运行将在任务中创建多少文章的字段（必填）。"
+
+#: views/scrape-meta-box.php:2173 views/scrape-meta-box.php:2204
+msgid "Unlimited"
+msgstr "无限"
+
+#: views/scrape-meta-box.php:2180 views/scrape-meta-box.php:2183
+msgid "Total runs"
+msgstr "总运行"
+
+#: views/scrape-meta-box.php:2185
+msgid ""
+"The field to set how many times the task will run. When the task reaches the "
+"total run value it stops running (Required)."
+msgstr "设置任务运行次数的字段。当任务达到总运行值时，它将停止运行（必需）。"
+
+#: views/scrape-meta-box.php:2196
+msgid "times"
+msgstr "次"
+
+#: views/scrape-meta-box.php:2211 views/scrape-meta-box.php:2214
+msgid "First run"
+msgstr "第一次运行"
+
+#: views/scrape-meta-box.php:2216
+msgid "The option to select first run time of task."
+msgstr "选择任务首次运行时间的选项。"
+
+#: views/scrape-meta-box.php:2232 views/scrape-meta-box.php:2235
+msgid "Run frequency"
+msgstr "运行频率"
+
+#: views/scrape-meta-box.php:2237
+msgid "The field to set the time interval of each task run."
+msgstr "设置每个任务运行的时间间隔的字段。"
+
+#: views/scrape-meta-box.php:2253 views/scrape-meta-box.php:2256
+msgid "On uncompleted run"
+msgstr "在未完成的运行中"
+
+#: views/scrape-meta-box.php:2258
+msgid ""
+"The field to use what action will be taken when a process is not finished "
+"and according to run frequency field another task should start."
+msgstr ""
+"当进程未完成时将采取什么操作的字段，根据运行频率字段，另一个任务应该开始。"
+
+#: views/scrape-meta-box.php:2267
+msgid "Terminate previous run"
+msgstr "终止上一次运行"
+
+#: views/scrape-meta-box.php:2268
+msgid "Wait until previous run is completed"
+msgstr "等到上一次运行完成"
+
+#: views/scrape-meta-box.php:2276 views/scrape-meta-box.php:2279
+msgid "Run type"
+msgstr "运行类型"
+
+#: views/scrape-meta-box.php:2281
+msgid "The field to set where the task should start from for every run."
+msgstr "设置每次运行任务应从何处开始的字段。"
+
+#: views/scrape-meta-box.php:2290
+msgid "Start from first list page"
+msgstr "从第一个列表页开始"
+
+#: views/scrape-meta-box.php:2291
+msgid "Continue from last scraped list page"
+msgstr "从上次抓取的列表页面继续"
+
+#: views/scrape-meta-box.php:2298 views/scrape-meta-box.php:2301
+msgid "How to continue"
+msgstr "如何继续"
+
+#: views/scrape-meta-box.php:2303
+msgid ""
+"By activating this option, you can specify that if the total posts is "
+"limited, it Continue from last scraped list page in any case."
+msgstr ""
+"通过激活此选项，您可以指定如果文章总数有限，则在任何情况下都从上次抓取的列表"
+"页面继续。"
+
+#: views/scrape-meta-box.php:2312
+msgid "If the total posts is limited, continue from the last of the page list"
+msgstr "如果文章总数有限，请从页面列表的最后一页继续"
+
+#: views/scrape-meta-box.php:2319 views/scrape-meta-box.php:2322
+msgid "Synchronic run"
+msgstr "同步运行"
+
+#: views/scrape-meta-box.php:2324
+msgid ""
+"By activating this option, you can prevent the from scrapes synchronic "
+"running."
+msgstr "通过激活此选项，您可以防止采集同步运行。"
+
+#: views/scrape-meta-box.php:2333
+msgid "Prevent the from scrapes synchronic running"
+msgstr "防止scrapes同步运行"
+
+#: views/scrape-meta-box.php:2344
+msgid "Others"
+msgstr "其他"
+
+#: views/scrape-meta-box.php:2350 views/scrape-meta-box.php:2353
+msgid "Timeout for process"
+msgstr "进程超时"
+
+#: views/scrape-meta-box.php:2355
+msgid ""
+"The field to set maximum time the task will wait for a reply for http "
+"requests (Required)."
+msgstr "设置任务等待 HTTP 请求回复的最长时间的字段（必填）。"
+
+#: views/scrape-meta-box.php:2366 views/scrape-meta-box.php:2391
+msgid "seconds"
+msgstr "秒"
+
+#: views/scrape-meta-box.php:2375 views/scrape-meta-box.php:2378
+msgid "Wait next processes"
+msgstr "等待下一个进程"
+
+#: views/scrape-meta-box.php:2380
+msgid "The field to set how much time to wait between processes (Required)."
+msgstr "设置进程之间等待多长时间的字段（必填）。"
+
+#: views/scrape-meta-box.php:2400 views/scrape-meta-box.php:2403
+msgid "On error"
+msgstr "出错时"
+
+#: views/scrape-meta-box.php:2405
+msgid ""
+"The field to set what action will be taken if task encounters an error "
+"during scrape process."
+msgstr "如果任务在抓取过程中遇到错误，则设置将采取什么操作的字段。"
+
+#: views/scrape-meta-box.php:2415
+msgid "Complete run"
+msgstr "完成运行"
+
+#: views/scrape-meta-box.php:2425
+msgid "NEXT"
+msgstr "下一个"
+
+#: views/scrape-meta-box.php:2426
+msgid "PREV"
+msgstr "上一个"
+
+#: views/scrape-meta-box.php:2433
+msgid "Tutorial"
+msgstr "教程"
+
+#: views/scrape-meta-box.php:2436 views/scrape-meta-box.php:2444
+msgid "SEO"
+msgstr "SEO"
+
+#: views/scrape-meta-box.php:2441
+msgid ""
+"To use this feature, you must purchase the Top Rank plugin from the Zhaket."
+msgstr "要使用此功能，您必须从 Zhaket 购买 Top Rank 插件。"
+
+#: views/scrape-meta-box.php:2453 views/scrape-meta-box.php:2455
+msgid "Save"
+msgstr "保存"
+
+#: views/scrape-meta-box.php:2492
+msgid "Disable styles"
+msgstr "禁用样式"
+
+#: views/scrape-settings.php:99 views/scrape-settings.php:100
+#: views/scrape-settings.php:265 views/scrape-settings.php:287
+#: views/scrape-settings.php:304
+msgid "Register version"
+msgstr "注册版本"
+
+#: views/scrape-settings.php:267
+msgid ""
+"You already register your license key. to re validate it, you can use this "
+"form."
+msgstr "您已经注册了许可证密钥。要重新验证它，您可以使用此表格。"
+
+#: views/scrape-settings.php:269
+msgid "Your current license:"
+msgstr "您当前的许可证："
+
+#: views/scrape-settings.php:281
+msgid "Revalidate"
+msgstr "重新验证"
+
+#: views/scrape-settings.php:282
+msgid "Delete and submit another license"
+msgstr "删除并提交另一个许可证"
+
+#: views/scrape-settings.php:286
+msgid "New license key"
+msgstr "新的许可证密钥"
+
+#: views/scrape-settings.php:289 views/scrape-settings.php:295
+#: views/scrape-settings.php:306
+msgid "Please wait..."
+msgstr "请稍等..."
+
+#: views/scrape-settings.php:301
+msgid "Please activate plugin with your license key to all features work."
+msgstr "请使用您的许可证密钥激活插件以使用所有功能。"
+
+#: views/scrape-settings.php:303
+msgid "License key"
+msgstr "注册码"
+
+#: views/scrape-settings.php:335 views/scrape-settings.php:367
+msgid "Something goes wrong please try again."
+msgstr "出了点问题，请重试。"
+
+#: views/scrape-settings.php:396 views/scrape-settings.php:464
+msgid "Please insert your license code"
+msgstr "请输入您的许可证代码"
+
+#: views/scrape-settings.php:412
+msgid "License code is valid."
+msgstr "许可证代码有效。"
+
+#: views/scrape-settings.php:416 views/scrape-settings.php:478
+msgid "Thanks! Your license activated successfully."
+msgstr "谢谢！您的许可证已成功激活。"
+
+#: views/scrape-settings.php:443
+#, php-format
+msgid "To activating your %s please insert you license key"
+msgstr "要激活您的 %s，请插入您的许可证密钥"
+
+#: views/scrape-settings.php:444
+msgid "Register Now"
+msgstr "现在注册"
+
+#: views/scrape-settings.php:450
+#, php-format
+msgid "There is something wrong with your %s license. please check it."
+msgstr "您的 %s 许可证有问题。请检查一下。"
+
+#: views/scrape-settings.php:451
+msgid "Check Now"
+msgstr "现在检查"
+
+#: views/scrape-settings.php:672
+msgid "<strong>Scrapes</strong>"
+msgstr "<strong>采集</strong>"
+
+#: views/support-page.php:5
+msgid "Help and Support"
+msgstr "帮助和支持"
+
+#: views/support-page.php:10
+msgid "Create Scrapes"
+msgstr "创建采集"
+
+#: views/support-page.php:14
+msgid "Add a New Scrapes"
+msgstr "新增采集"
+
+#: views/support-page.php:15
+msgid "Single method Scrapes"
+msgstr "单一方式采集"
+
+#: views/support-page.php:16
+msgid "List method Scrapes"
+msgstr "列表方式采集"
+
+#: views/support-page.php:19 views/support-page.php:36
+#: views/support-page.php:53 views/support-page.php:70
+#: views/support-page.php:87 views/support-page.php:104
+#: views/support-page.php:121 views/support-page.php:138
+#: views/support-page.php:155 views/support-page.php:172
+#: views/support-page.php:189 views/support-page.php:206
+msgid "Watch Video"
+msgstr "看视频"
+
+#: views/support-page.php:27
+msgid "Professional scrapes"
+msgstr "专业采集"
+
+#: views/support-page.php:31 views/support-page.php:65
+#: views/support-page.php:167 views/support-page.php:184
+msgid "Use of technical addon"
+msgstr "使用技术扩展"
+
+#: views/support-page.php:32
+msgid "Digikala product transfer"
+msgstr "Digikala 产品转移"
+
+#: views/support-page.php:33
+msgid "Specifications, prices and Stock"
+msgstr "规格、价格和库存"
+
+#: views/support-page.php:44
+msgid "Content translation"
+msgstr "内容翻译"
+
+#: views/support-page.php:48
+msgid "Enable translation in technical"
+msgstr "启用技术翻译"
+
+#: views/support-page.php:49
+msgid "Definition the source and target language"
+msgstr "定义源语言和目标语言"
+
+#: views/support-page.php:50
+msgid "Translate content and titles"
+msgstr "翻译内容和标题"
+
+#: views/support-page.php:61
+msgid "Aparat videos"
+msgstr "Aparat视频"
+
+#: views/support-page.php:66
+msgid "Template activation in Scrapes"
+msgstr "Scrapes 中的模板激活"
+
+#: views/support-page.php:67
+msgid "Embed Aparat shortcode"
+msgstr "嵌入 Aparat 简码"
+
+#: views/support-page.php:78
+msgid "Affiliate"
+msgstr "Affiliate"
+
+#: views/support-page.php:82
+msgid "Having a public link"
+msgstr "有一个公共链接"
+
+#: views/support-page.php:83
+msgid "Definition of external product"
+msgstr "外部产品的定义"
+
+#: views/support-page.php:84
+msgid "Use of affiliate shortcode"
+msgstr "使用Affiliate简码"
+
+#: views/support-page.php:95
+msgid "Digikala Pages"
+msgstr "Digikala页面"
+
+#: views/support-page.php:99
+msgid "Use the URL parameter"
+msgstr "使用网址参数"
+
+#: views/support-page.php:100
+msgid "Determine page method"
+msgstr "确定页面方法"
+
+#: views/support-page.php:101
+msgid "Determine the next pages"
+msgstr "确定下一页"
+
+#: views/support-page.php:112
+msgid "Digikala Gallery"
+msgstr "Digikala Gallery"
+
+#: views/support-page.php:116
+msgid "Use the custom field"
+msgstr "使用自定义字段"
+
+#: views/support-page.php:117
+msgid "Put the Xpath value"
+msgstr "放置 Xpath 值"
+
+#: views/support-page.php:118
+msgid "Activate Html tags"
+msgstr "激活 Html 标签"
+
+#: views/support-page.php:129
+msgid "Add more taxonomy"
+msgstr "添加更多分类"
+
+#: views/support-page.php:133
+msgid "Suitable for movie and serial sites"
+msgstr "适用于电影和连续剧网站"
+
+#: views/support-page.php:134
+msgid "Add and select taxonomy"
+msgstr "添加和选择分类"
+
+#: views/support-page.php:135
+msgid "Select the value from the source site"
+msgstr "从源站点中选择值"
+
+#: views/support-page.php:146
+msgid "Add watermark"
+msgstr "加水印"
+
+#: views/support-page.php:146 views/support-page.php:163
+#: views/support-page.php:180 views/support-page.php:197
+msgid " New"
+msgstr " New"
+
+#: views/support-page.php:150
+msgid "Install the Image Watermark plugin"
+msgstr "安装图像水印插件"
+
+#: views/support-page.php:151
+msgid "Enable the option to add watermarks"
+msgstr "启用添加水印的选项"
+
+#: views/support-page.php:152
+msgid "Select the desired logo or image"
+msgstr "选择所需的徽标或图像"
+
+#: views/support-page.php:163
+msgid "Add Attributes"
+msgstr "添加属性"
+
+#: views/support-page.php:168
+msgid "Enable attribute option in settings"
+msgstr "在设置中启用属性选项"
+
+#: views/support-page.php:169
+msgid "Set attribute in Scrape"
+msgstr "在 Scrape 中设置属性"
+
+#: views/support-page.php:180
+msgid "Transfer specifications"
+msgstr "传输规范"
+
+#: views/support-page.php:185
+msgid "Enable specification tab option"
+msgstr "启用规范选项卡选项"
+
+#: views/support-page.php:186
+msgid "Set specification in Scrape"
+msgstr "在 Scrape 中设置规范"
+
+#: views/support-page.php:197
+msgid "Stock review"
+msgstr "库存回顾"
+
+#: views/support-page.php:201
+msgid "Setting stock custom fields"
+msgstr "设置库存自定义字段"
+
+#: views/support-page.php:202
+msgid "Use replace rules"
+msgstr "使用替换规则"
+
+#: views/support-page.php:203
+msgid "Use instock and outofstock values"
+msgstr "使用库存和缺货值"
+
+#: views/support-page.php:217
+msgid ""
+"Bargwp provides Persian WordPress services at your service. If you have any "
+"problems, please contact us, we will respond as soon as possible."
+msgstr ""
+"Bargwp 为您提供波斯语 WordPress 服务。如果您有任何问题，请联系我们，我们会尽"
+"快回复。"
+
+#: views/support-page.php:217
+msgid ""
+"<br><small style=\"color: #8a8a8a;\">You can send your questions and "
+"problems through the support ticket.</small>"
+msgstr ""
+"<br><small style=\"color: #8a8a8a;\">你可以通过支持票发送你的问题和难题。</"
+"small>"
+
+#: views/support-page.php:218
+msgid "Create a support ticket"
+msgstr "创建支持票"
+
+#: views/support-page.php:228
+msgid "Change Log"
+msgstr "更改日志"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.zhaket.com/web/robot-scrapes"
+msgstr "https://www.zhaket.com/web/robot-scrapes"
+
+#. Description of the plugin/theme
+msgid "Automatic WordPress Scraper Plugin"
+msgstr "自动WordPress Scraper插件"
+
+#. Author of the plugin/theme
+msgid "برگ وردپرس"
+msgstr ""
+"برگ وردپرس | <a href=\"https://www.xxziyuan.top/\" target=\"_blank\">小小资源"
+"铺汉化</a>"
+
+#. Author URI of the plugin/theme
+msgid "https://bargwp.com/"
+msgstr "https://bargwp.com/"
